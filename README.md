@@ -6,6 +6,8 @@ Python 3.9.0
 
 Django 3.1.2
 
+MariaDB 10.4.15
+
 ## Preqrequisition
 ### 1. Python
 Please install python from the following [link](https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe)
