@@ -34,3 +34,4 @@ Please run following command to download django package:
 
 
 ## Add database
+Added SQL file for user database
