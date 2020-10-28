@@ -8,3 +8,8 @@ def indexView(request):
 	template = loader.get_template('index.html')
 	context = {}
 	return HttpResponse(template.render(context, request))
+
+def pwResetView(request):
+	template = loader.get_template('pwReset_auth.html')
+	context = {}
+	return HttpResponse(template.render(context, request))

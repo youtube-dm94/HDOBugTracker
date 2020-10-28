@@ -1,11 +1,17 @@
+{% extends 'base.html' %}
 {% load static %}
+{% block page_content %}
 
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Password Reset</title>
+    <head>   
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="{% static 'css/style.css' %}">
-        <script src="jquery-3.4.1.js"></script>
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+        
     </head>
     <body>
         <div id="header"></div>
@@ -46,3 +52,4 @@
        </section>
     </body>
 </html>
+{% endblock %}
